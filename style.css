@@ -1,0 +1,476 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* header//////////////////////////////////////////////// */
+header {
+  background-image: url(./img/hero_desktop.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 300px 50px;
+}
+/* nav///////////////////////////////////////  */
+
+nav {
+  position: absolute;
+  top: 20px;
+  left: 40%;
+  position: fixed;
+  z-index: 100;
+}
+nav img {
+  width: 200px;
+}
+nav button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  text-wrap: nowrap;
+  font-weight: bold;
+  cursor: pointer;
+}
+.first-btn {
+  position: absolute;
+  top: 0;
+  left: 260%;
+  background-color: red;
+  color: white;
+}
+.second-btn {
+  position: absolute;
+  top: 0;
+  left: 320%;
+}
+header form {
+  position: absolute;
+  left: 25%;
+}
+form h1 {
+  font-size: 40px;
+  color: white;
+}
+header input {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  width: 350px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  border-radius: 50px;
+  border: none;
+  text-align: center;
+}
+
+.fa-map-marker {
+  position: absolute;
+  top: 70px;
+  left: 120px;
+}
+.arrow-btn {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 6px 8px;
+  border-radius: 50px;
+  cursor: pointer;
+  position: absolute;
+  top: 64px;
+  left: 400px;
+}
+.user-btn {
+  border-radius: 50px;
+  border: none;
+  padding: 5px 8px;
+  cursor: pointer;
+  position: absolute;
+  top: 110px;
+  left: 200px;
+  font-weight: bold;
+}
+
+/* main/////////////////////////////////////// */
+main {
+  position: relative;
+  padding-top: 300px;
+}
+main div {
+  max-width: 200px;
+  text-align: center;
+}
+main h2 {
+  max-width: 150px;
+  text-align: center;
+  margin-left: 30px;
+}
+main a {
+  color: red;
+  text-decoration: none;
+}
+.first-div {
+  position: absolute;
+  top: 100px;
+  left: 10%;
+}
+.second-div {
+  position: absolute;
+  top: 100px;
+  left: 40%;
+}
+.third-div {
+  position: absolute;
+  top: 100px;
+  left: 70%;
+}
+.third-div img {
+  width: 150px;
+}
+/* section///////////////////////////////////////////// */
+section {
+  position: relative;
+}
+
+section h1 {
+  font-size: 30px;
+  margin-top: 20px;
+  width: 400px;
+}
+section h6 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+section p {
+  width: 500px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+section button {
+  padding: 10px 20px;
+  font-size: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 50px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.first-section img {
+  position: absolute;
+  width: 600px;
+
+  top: 200px;
+  left: 600px;
+  z-index: 10;
+}
+.first-section .write-up {
+  position: absolute;
+  top: 250px;
+  left: 80px;
+}
+.second-section {
+  position: relative;
+  top: 600px;
+  background-color: pink;
+  padding-top: 500px;
+}
+.second-section img {
+  position: absolute;
+  width: 600px;
+  top: 60px;
+  left: 80px;
+}
+.second-section .write-up {
+  position: absolute;
+  top: 150px;
+  left: 700px;
+}
+/* article///////////////////////////////////////////// */
+article {
+  background-image: url(./img/grocery_desktop.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 600px;
+}
+article div {
+  background-color: rgba(0, 0, 0, 0.521);
+  /* background-color: aqua; */
+  width: 100%;
+  height: 100%;
+  padding: 100px 300px;
+
+  /* position: absolute; */
+  text-align: center;
+  color: white;
+}
+article h2 {
+  width: 280px;
+  margin-left: 200px;
+  font-size: 30px;
+}
+article h5 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+article p {
+  margin-left: 200px;
+
+  margin-top: 10px;
+  width: 260px;
+}
+article button {
+  padding: 10px 20px;
+  font-size: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 50px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.third-section {
+  position: absolute;
+  top: 2300px;
+}
+.third-section img {
+  position: absolute;
+  width: 600px;
+
+  top: 200px;
+  left: 600px;
+  z-index: 10;
+}
+.third-section .write-up {
+  position: absolute;
+  top: 300px;
+  left: 80px;
+}
+.four-div {
+  background-color: pink;
+  position: relative;
+  top: 1200px;
+  padding: 750px 0;
+}
+.four-div h1 {
+  position: absolute;
+  top: 0;
+  left: 450px;
+  /* margin-top: -590px; */
+  text-align: center;
+}
+.four-div img {
+  width: 500px;
+}
+.four-div div {
+  position: absolute;
+}
+.div1 {
+  top: 130px;
+  left: 80px;
+}
+.div2 {
+  top: 130px;
+  left: 700px;
+}
+.div3 {
+  top: 820px;
+  left: 80px;
+}
+.div4 {
+  top: 820px;
+  left: 700px;
+}
+.four-div h2 {
+  text-align: center;
+  font-size: 30px;
+  width: 350px;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+.four-div p {
+  text-align: center;
+  /* margin-left: 60px; */
+}
+.four-div button {
+  position: absolute;
+  left: 190px;
+  cursor: pointer;
+}
+.four-div span {
+  position: absolute;
+  text-align: center;
+  top: 630px;
+  left: 120px;
+}
+.sign-up h1 {
+  position: absolute;
+  top: 70px;
+  left: 500px;
+  text-align: center;
+}
+.sign-up {
+  position: relative;
+  top: 1150px;
+}
+.grow {
+  position: relative;
+  top: 1750px;
+}
+/* aside///////////////////////////////////////////// */
+aside {
+  position: relative;
+  top: 1800px;
+}
+table {
+  width: 100%;
+}
+
+th {
+  text-align: center;
+  padding: 10px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.233);
+}
+.city {
+  border-bottom: 2px solid black;
+}
+td {
+  text-align: center;
+  padding: 10px;
+}
+caption {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+/* footer///////////////////////////////////////////// */
+footer {
+  background-color: black;
+  position: relative;
+  top: 1900px;
+  padding: 400px 0;
+}
+footer h3 {
+  position: absolute;
+  top: 40px;
+  left: 100px;
+  color: white;
+}
+footer ul {
+  position: absolute;
+  list-style: none;
+}
+footer li {
+  padding: 5px;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer .ul1 {
+  top: 80px;
+  left: 100px;
+}
+footer .ul2 {
+  top: 80px;
+  left: 400px;
+}
+footer .ul3 {
+  top: 80px;
+  left: 700px;
+}
+footer .ul4 {
+  top: 80px;
+  left: 1000px;
+}
+footer .ul5 {
+  top: 320px;
+  left: 100px;
+}
+footer .ul6 {
+  top: 320px;
+  left: 400px;
+}
+footer .ul7 {
+  top: 320px;
+  left: 700px;
+}
+button img {
+  width: 35px;
+}
+button b {
+  font-size: 10px;
+  position: absolute;
+  text-wrap: nowrap;
+  top: 14px;
+  left: 55px;
+}
+footer button {
+  background-color: rgba(63, 57, 57, 0.6);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 24px;
+  position: absolute;
+  padding: 5px 10px;
+}
+.btn1 {
+  top: 300px;
+  left: 1000px;
+}
+.btn2 {
+  top: 370px;
+  left: 1000px;
+  font-size: 20px;
+}
+.btn2 b {
+  font-size: 6px;
+}
+.heading1 {
+  top: 290px;
+  left: 100px;
+}
+.heading2 {
+  top: 290px;
+  left: 400px;
+}
+.heading3 {
+  top: 290px;
+  left: 700px;
+}
+footer i {
+  color: white;
+  margin-right: 10px;
+}
+footer .logo {
+  width: 30px;
+  margin-right: 10px;
+}
+.last-div {
+  position: absolute;
+  bottom: 20px;
+  left: 100px;
+}
+.last-div a {
+  margin-right: 10px;
+}
+.last-div select {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 40px;
+  position: relative;
+}
+.globe {
+  width: 20px;
+  position: relative;
+  top: 6px;
+  right: 180px;
+  color: black;
+}
